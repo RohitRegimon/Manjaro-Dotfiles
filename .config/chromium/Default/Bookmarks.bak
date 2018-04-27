@@ -1,0 +1,321 @@
+{
+   "checksum": "bb0c46503e99e1d866f00b9fe7761561",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13089580888380733",
+            "id": "18",
+            "meta_info": {
+               "last_visited": "13166649949290130"
+            },
+            "name": "HP",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "http://www.redemptionsupport.com/claimstatusnew.aspx?OnlineFormOnlywith0=90064555"
+         }, {
+            "date_added": "13135422836545200",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13168454313528202"
+            },
+            "name": "PCGames-Download | www.PCGames-Download.net",
+            "sync_transaction_version": "13",
+            "type": "url",
+            "url": "http://pcgames-download.net/"
+         }, {
+            "date_added": "13136077778617985",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13167507988034383"
+            },
+            "name": "KIssAnime",
+            "sync_transaction_version": "9",
+            "type": "url",
+            "url": "http://kissanime.ru/"
+         }, {
+            "date_added": "13138070926870289",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13138070926871648"
+            },
+            "name": "All Your Designs – Canva",
+            "sync_transaction_version": "10",
+            "type": "url",
+            "url": "https://www.canva.com/"
+         }, {
+            "children": [ {
+               "date_added": "13135755492971392",
+               "id": "32",
+               "meta_info": {
+                  "last_visited": "13154427938258815",
+                  "last_visited_desktop": "13154733017322426"
+               },
+               "name": "YIFY Movies",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://yts.ag/"
+            }, {
+               "date_added": "13139520514389037",
+               "id": "33",
+               "meta_info": {
+                  "last_visited_desktop": "13148393596394798"
+               },
+               "name": "EZTV - TV Torrents Online Series Download | Official",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://eztv.ag/"
+            } ],
+            "date_added": "13168382551850459",
+            "date_modified": "13168382551850459",
+            "id": "22",
+            "name": "Movies and TV Series",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13136130711911290",
+               "id": "30",
+               "meta_info": {
+                  "last_visited_desktop": "13136555707354733"
+               },
+               "name": "Solve Introduction Questions | C++ | HackerRank",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://www.hackerrank.com/domains/cpp/cpp-introduction"
+            }, {
+               "date_added": "13136126503266140",
+               "id": "31",
+               "meta_info": {
+                  "last_visited_desktop": "13136126503267303"
+               },
+               "name": "Learn C++",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "http://www.learncpp.com/"
+            } ],
+            "date_added": "13168382551850688",
+            "date_modified": "13168382551850688",
+            "id": "23",
+            "name": "C++",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "date_added": "13141397441388231",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13168296802117011"
+            },
+            "name": "ACT Balance",
+            "sync_transaction_version": "11",
+            "type": "url",
+            "url": "http://portal.actcorp.in/web/chn/home"
+         }, {
+            "children": [ {
+               "date_added": "13164701692337195",
+               "id": "26",
+               "meta_info": {
+                  "last_visited_desktop": "13165251254554575"
+               },
+               "name": "Codeacademy",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://www.codecademy.com/learn"
+            }, {
+               "date_added": "13164701805461690",
+               "id": "27",
+               "meta_info": {
+                  "last_visited_desktop": "13164701805462208"
+               },
+               "name": "FreeCodeCamp",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://www.freecodecamp.org/"
+            }, {
+               "date_added": "13164701818000709",
+               "id": "28",
+               "meta_info": {
+                  "last_visited_desktop": "13164701818000949"
+               },
+               "name": "PluralSight",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://www.pluralsight.com/"
+            }, {
+               "date_added": "13164701827560282",
+               "id": "29",
+               "meta_info": {
+                  "last_visited_desktop": "13164701827560591"
+               },
+               "name": "Lynda",
+               "sync_transaction_version": "3",
+               "type": "url",
+               "url": "https://www.lynda.com/"
+            } ],
+            "date_added": "13168382551851118",
+            "date_modified": "13168382551851118",
+            "id": "25",
+            "name": "Coding",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "date_added": "13102446837000000",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13168381349479856"
+            },
+            "name": "Manjaro Linux",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://manjaro.org/"
+         }, {
+            "date_added": "13102446886000000",
+            "id": "6",
+            "name": "Manjaro Wiki",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://wiki.manjaro.org/index.php?title=Main_Page"
+         }, {
+            "date_added": "13102446920000000",
+            "id": "7",
+            "name": "Manjaro Forum",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://forum.manjaro.org/"
+         } ],
+         "date_added": "13168381342104084",
+         "date_modified": "13168455685215516",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13168381342104087",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "110",
+      "synced": {
+         "children": [ {
+            "date_added": "13113285433404916",
+            "id": "9",
+            "name": "[MIUI DEVICE TEAM] Flash (Unbrick) Redmi Note 3(SD) with Locked Bootloader - Redmi Note 3 - Xiaomi MIUI Official Forum - Mobile",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "http://en.miui.com/thread-235865-1-1.html"
+         }, {
+            "date_added": "13133400939991545",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13168462550168015"
+            },
+            "name": "WhatsApp",
+            "sync_transaction_version": "104",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13135642487265340",
+            "id": "11",
+            "meta_info": {
+               "last_visited": "13168456143064659",
+               "last_visited_desktop": "13168456092166865"
+            },
+            "name": "srmuniv.ac - Academia - Academic Web Services",
+            "sync_transaction_version": "33",
+            "type": "url",
+            "url": "https://academia.srmuniv.ac.in/#View:My_Attendance"
+         }, {
+            "date_added": "13141136673079683",
+            "id": "12",
+            "meta_info": {
+               "last_visited": "13141136673088187"
+            },
+            "name": "Gwen Stacey... Wait for it (video) on 9GAG",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://m.9gag.com/gag/amY3vE6?ref=android.s.fb"
+         }, {
+            "date_added": "13161292845878915",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13162076425591447"
+            },
+            "name": "Code Monk - Be a better programmer",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.hackerearth.com/practice/codemonk/"
+         }, {
+            "date_added": "13162078193949440",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13165250965717385"
+            },
+            "name": "Solve Programming Questions | HackerRank",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.hackerrank.com/domains/data-structures/arrays"
+         }, {
+            "date_added": "13165169940541018",
+            "id": "15",
+            "meta_info": {
+               "last_visited": "13165169940620112"
+            },
+            "name": "ArtStation - Sylvia Ritter",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.artstation.com/sylviaritter"
+         }, {
+            "date_added": "13165263788042993",
+            "id": "16",
+            "meta_info": {
+               "last_visited_desktop": "13165263788043478"
+            },
+            "name": "CodePen - Front End Developer Playground & Code Editor in the Browser",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://codepen.io/"
+         }, {
+            "date_added": "13167147514255684",
+            "id": "17",
+            "meta_info": {
+               "last_visited": "13167147514291333"
+            },
+            "name": "From technotification.com",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.google.com/amp/s/www.technotification.com/2018/04/websites-for-ethical-hacking-2.html/amp#ampshare=https://www.technotification.com/2018/04/websites-for-ethical-hacking-2.html"
+         }, {
+            "date_added": "13168523316948874",
+            "id": "35",
+            "meta_info": {
+               "last_visited_desktop": "13168523316949375"
+            },
+            "name": "Material Icons Cheatsheet",
+            "sync_transaction_version": "107",
+            "type": "url",
+            "url": "https://shanfan.github.io/material-icons-cheatsheet/"
+         }, {
+            "date_added": "13168523322630905",
+            "id": "36",
+            "meta_info": {
+               "last_visited_desktop": "13168523322631062"
+            },
+            "name": "Cheatsheet | Font Awesome",
+            "sync_transaction_version": "110",
+            "type": "url",
+            "url": "https://fontawesome.com/cheatsheet"
+         } ],
+         "date_added": "13168381342104089",
+         "date_modified": "13168523322630905",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

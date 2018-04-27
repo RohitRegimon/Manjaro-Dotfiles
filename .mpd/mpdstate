@@ -1,0 +1,27 @@
+sw_volume: 98
+audio_device_state:1:Alsa for audio sound card
+audio_device_state:1:my_fifo
+state: play
+current: 7
+time: 260.086000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:PewDiePie - Hej Monika Remix by Party In Backyard.mp3
+1:Modern talking/Modern Talking - Cheri Cheri Lady.mp3
+2:Owl City/01 Verge (feat. Aloe Blacc).flac
+3:breaking benjamin/breaking-benjamin-i-will-not-bow.mp3
+4:01. Coldplay - Life in Technicolor ii.mp3
+5:05 Porcupine Tree - Way out of Here.mp3
+6:5.Talk.mp3
+7:COLDPLAY live 2012 - Yellow (piano intro) - Full HD.mp3
+8:Porcupine Tree - Drown With Me.mp3
+9:DonnaSummer/Donna Summer - Bad Girl (extended).mp3
+10:English/-When The Levee Breaks.mp3
+11:English/07 - Tequila Sunrise.mp3
+playlist_end
