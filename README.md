@@ -1,7 +1,7 @@
 # Manjaro Dotfiles
 
 ## Screenshots
-___
+
 ### Desktop
 ![desktop](https://user-images.githubusercontent.com/18247207/39366587-fa2ec432-4a51-11e8-8eaf-63335b0e6918.png)
 
