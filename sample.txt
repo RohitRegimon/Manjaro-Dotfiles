@@ -1,3 +1,0 @@
-This is a sample text to test how files are added to Github.
-
-#Edited this file.
