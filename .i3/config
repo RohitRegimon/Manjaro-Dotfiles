@@ -27,7 +27,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -40,7 +40,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+bindsym $mod+Ctrl+m exec gnome-terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -52,18 +52,27 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Media player controls
+
+##for ncmpcpp
+#bindsym XF86AudioPrev exec mpc prev
+#bindsym XF86AudioNext exec mpc next
+#bindsym XF86AudioPlay exec mpc toggle
+#playerctl play-pause
+
+
+##for spotify
 bindsym XF86AudioPlay exec playerctl play-pause
-#bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioStop exec playerctl stop
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Start Applications
-bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec palemoon
+bindsym $mod+Ctrl+b exec gnome-terminal -e 'bmenu'
+bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 #bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
-bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+F5 exec gnome-terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -182,7 +191,7 @@ bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move 0container to workspace 7
+bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
@@ -276,7 +285,9 @@ mode "resize" {
 }
 
 # Lock screen
-bindsym $mod+Shift+x exec --no-startup-id blurlock
+# custom keybinding to lockscreen, use --lock dim or --lock blur below for different backgrounds
+bindsym $mod+shift+x exec betterlockscreen --lock dimblur
+#bindsym $mod+Shift+x exec --no-startup-id blurlock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -293,8 +304,11 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec firefox
-exec spotify
+# exec firefox
+# exec spotify
+# exec_always --no-startup-id /home/rohitr/mpdncmpcpp.sh
+# exec gnome-terminal -e ncmpcpp
+
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -359,9 +373,12 @@ set_from_resource $term_color15    color15
 # hide/unhide i3status bar
 #bindsym $mod+m bar mode toggle
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
+#set $bg-color 	         #2f343f
+#set $inactive-bg-color   #2f343f
+#set $text-color          #f3f4f5
+#foreground = #ffffffff
+
+
 set $inactive-text-color #676E7D
 set $urgent-bg-color #E53935
 
@@ -383,8 +400,8 @@ bindsym $mod+d exec rofi -show run
 #############################
 
 # Set inner/outer gaps
-gaps inner 30
-gaps outer 4
+gaps inner 15
+gaps outer 40
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -446,7 +463,14 @@ focus_follows_mouse no
 exec_always --no-startup-id /home/rohitr/run_polybar.sh
 
 # pywal
-#exec_always wal -R
+exec_always wal -R
 
 #Hide mouse cursor
 exec_always unclutter &
+
+
+# Set last used image as desktop background
+exec --no-startup-id betterlockscreen -u ~/Pictures/space-1524761163718-6919.jpg -s dimblur
+
+#browser pop-ups
+for_window [class="Firefox" instance="Places"] floating enable
